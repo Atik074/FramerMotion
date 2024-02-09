@@ -14,19 +14,15 @@ const Lesson2 = () => {
             controls.start({x:-100})
           }
    }
-  // const handleBackward =()=>{
-  //         controls.start({x:-100})
-  //  }
+ 
 
   return (
     <div className="border-2 border-red-700   size-[500px]  flex flex-col justify-center items-center mt-12 rounded">
    <div>
    <button onClick={handleToggle} className=" p-3 m-4 bg-slate-950 text-white  rounded-lg">
-        Forward
+       Toggle
       </button>
-      <button  className=" p-3 mb-4 bg-slate-950 text-white  rounded-lg">
-       Backward
-      </button>
+  
    </div>
       <motion.div animate={controls} className=" size-64 bg-indigo-500 flex flex-wrap gap-5 rounded-lg"></motion.div>
     </div>
