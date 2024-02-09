@@ -2,13 +2,19 @@ import { motion } from "framer-motion";
 import { useRef } from "react";
 
 const parent = {
-  hidden: { opacity: 0, scale: 0.6 },
-  visible: { opacity: 1, scale: 1 },
+  hidden: {   x:0 , y:0 },
+  visible: { 
+    x:[0,200,300, 500,40] ,
+    y:200,
+   },
+  
   tap: {
     scale: 1.1,
     rotate: 360,
     transition: {
       duration: 3,
+      
+   
     },
   },
 };
