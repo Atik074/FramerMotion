@@ -7,6 +7,7 @@ import UseCycle from './Lesson2/UseCyle/UseCycle'
 import UseAnimate from './UseAnimate/UseAnimate'
 import UseDragControlls from './UseDragControlls/UseDragControlls'
 import UseMotionValue from './UseMotionValue/UseMotionValue'
+import UseScroll from './UseScroll/UseScroll'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
      <UseAnimate/>
      <UseDragControlls/>
      <UseMotionValue/>
+     <UseScroll/>
     </>
   )
 }
