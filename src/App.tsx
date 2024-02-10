@@ -6,6 +6,7 @@ import Lesson2 from './Lesson2/Lesson2'
 import UseCycle from './Lesson2/UseCyle/UseCycle'
 import UseAnimate from './UseAnimate/UseAnimate'
 import UseDragControlls from './UseDragControlls/UseDragControlls'
+import UseMotionValue from './UseMotionValue/UseMotionValue'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
      <Inview/>
      <UseAnimate/>
      <UseDragControlls/>
+     <UseMotionValue/>
     </>
   )
 }

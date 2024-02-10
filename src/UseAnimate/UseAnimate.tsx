@@ -8,7 +8,7 @@ const UseAnimate = () => {
   };
   return (
     <div className="border-2 border-red-500   size-[500px]  flex flex-col justify-center items-center mt-12 rounded">
-      <h1 className="text-2xl mb-4">learn Inview hook</h1>
+      <h1 className="text-2xl mb-4">learn UseAnimate hook , click it</h1>
 
       <div
         ref={scope}
